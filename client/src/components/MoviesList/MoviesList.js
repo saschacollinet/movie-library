@@ -99,14 +99,18 @@ const Movies = styled.div`
 `;
 
 const MovieCard = styled.div`
-  padding: 1rem 0 1rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 75%;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  border: 1px solid black;
   border-radius: 25px;
   text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
 `;
