@@ -19,7 +19,7 @@ A simple movie library
 - clone project
 - run `npm i` in the client and the server folder to install all necessary dependencies
 - add `.env` file in the server folder containing `PORT=your_port_for_the_localhost` and `PASSWORD=your_password_for_MYSQL_user_ root`
-- connect to MySQL Database on your localhost, create the schema `movieLibrary` and add the following tables:
+- connect to MySQL Database on your localhost, create the schema `movieLibrary` and add the following table:
 
 ```
 CREATE TABLE `movies` (
